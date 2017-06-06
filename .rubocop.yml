@@ -13,3 +13,6 @@ AbcSize:
 
 BlockLength:
   Enabled: false
+
+Style/EndOfLine:
+  EnforcedStyle: lf
