@@ -20,10 +20,6 @@ branches:
   except:
     - macosx
 
-before_build:
-  - ruby --version
-  - gem --version
-
 install:
   - ps: net user /add $env:machine_user $env:machine_pass
   - ps: net localgroup administrators $env:machine_user /add
