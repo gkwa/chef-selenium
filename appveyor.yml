@@ -23,7 +23,6 @@ branches:
 before_build:
   - ruby --version
   - gem --version
-  - rubocop --version
 
 install:
   - ps: net user /add $env:machine_user $env:machine_pass
