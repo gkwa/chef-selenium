@@ -6,7 +6,7 @@ sudo: required
 addons:
   apt:
     sources:
-      - chef-current-trusty
+      - chef-current-precise
     packages:
       - chefdk
       - gcc
